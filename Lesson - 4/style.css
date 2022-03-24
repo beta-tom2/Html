@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0 auto;
+}
+
+div {
+    display: block;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.footer__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main {
+    display: flex;
+}
+
+.card-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 359px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top__text {
+    width: 425px;
+}
+
+.text,
+.top_heading,
+.heading-mini {
+    color: #1f3f68;
+}
+
+.text,
+.button-submit {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.heading-contacts,
+.button-submit {
+    font-weight: 500;
+}
+
+.heading-contacts,
+.heading,
+.button-submit {
+    text-align: center;
+}
+
+.input-text,
+.button {
+    border-radius: 10px;
+}
+
+.top_heading {
+    width: 510px;
+    font-size: 64px;
+}
+
+.heading-contacts {
+    font-size: 44px;
+}
+
+.heading {
+    font-size: 36px;
+}
+
+.heading-mini {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.input-text {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    opacity: 0.4;
+}
+
+.button-submit {
+    background: #5a98d0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 117, 0.2);
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
